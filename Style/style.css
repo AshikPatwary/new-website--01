@@ -8,6 +8,7 @@
   color: #fd6e0a;
 }
 .primary-btn {
+  margin-right: 30px;
   border-radius: 5px;
   border: 0;
   padding: 13px 35px;
@@ -15,6 +16,7 @@
   font-weight: 700;
   background: #fd6e0a;
   color: #ffff;
+  cursor: pointer;
 }
 .primary-btn:hover {
   box-shadow: 0 0 10px green;
@@ -52,6 +54,7 @@
   margin-bottom: 20px;
 }
 .banner-description {
+  margin-bottom: 30px;
   font-size: 18px;
   color: #474747;
   text-shadow: 2px 2px 3px #474747;
@@ -178,8 +181,12 @@ footer{
 .footer-column{
   width: 50%;
 }
+.section-title{
+  margin-bottom: 20px;
+}
 .social-links{
   display: flex;
+  margin-top: 30px;
   gap: 24px;
 }
 .contact input[type="text"], input[type="email"], textarea{
@@ -191,4 +198,12 @@ footer{
   background: #fff;
   color: #757575;
   border: none;
+}
+#textarea{
+  height: 106px;
+  width: 100%;
+  resize: none;
+}
+.contact input:hover{
+  border: #fd6e0a;
 }
