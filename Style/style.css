@@ -168,3 +168,27 @@ main {
   margin-top: 50px;
   text-align: center;
 }
+footer{
+  display: flex;
+  gap: 100px;
+  margin-top: 113px;
+  padding: 130px 200px;
+  background: #fff8f3;
+}
+.footer-column{
+  width: 50%;
+}
+.social-links{
+  display: flex;
+  gap: 24px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 8px 30px;
+  background: #fff;
+  color: #757575;
+  border: none;
+}
